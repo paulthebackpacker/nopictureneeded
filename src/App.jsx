@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+console.log("API KEY:", import.meta.env.VITE_ANTHROPIC_API_KEY);
 const SYSTEM_PROMPT = `You convert teacher questions into versions that work for students with aphantasia and SDAM. You preserve the exact academic task. You only change how the question asks for the thinking.
 You are translating the question, not answering it, not guiding solutions, and not modeling an answer.
 Your tone is calm, direct, and kind. You are on the student's side.
